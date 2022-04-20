@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""Alta3 Research | RZFeeser
-   if, elif, else - A simple program using conditionals to make a decision."""
 
-
-message = 'Platinum Memeber.'
+import random 
 
 # wrap destination in a float() to accept decimals as
-destination = float(input("What is your next Caribbean Destination?" Baha))
+destination = input("What is your next Caribbean Destination? Bahamas/Cuba/Anguilla/Tortola")
 
-rps = {"Bahamas":1, "Cuba":2, "Anguilla":3, "Tortola",4}
-
-# if input value was higher or equal to
+# if input destitation
 if destination == "Bahamas":
     print('Welcome!')
+elif destination == "Cuba":
+    print('Bienvenidos')
+elif destination == "Anguilla":
+    print('See you soon!')
+elif destination == ("Tortola"):
+    print('Time to go sailing')
 
-print(message)
+print()
 
